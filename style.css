@@ -105,7 +105,8 @@ button{font:inherit}
 }
 @media(max-width:780px){
   .site-header{height:70px;padding:0 18px}.brand img{width:150px}
-  .menu-toggle{display:flex;flex-direction:column;justify-content:center;align-items:center;gap:6px;margin-left:auto;width:34px;height:34px;padding:0}
+  .menu-toggle{display:flex;flex-direction:column;justify-content:center;align-items:center;gap:6px;margin-left:auto;width:40px;height:40px;padding:0;background:rgba(0,179,179,.14);border:1px solid rgba(0,179,179,.4);border-radius:11px;transition:.2s}
+  .menu-toggle:hover,.menu-toggle.active{background:rgba(0,179,179,.24);border-color:var(--teal-bright)}
   .menu-toggle span{display:block;width:26px;height:2px;border-radius:2px;background-color:#ffffff;transition:.2s}
   .menu-toggle.active span:first-child{transform:translateY(8px) rotate(45deg)}
   .menu-toggle.active span:nth-child(2){opacity:0}
